@@ -11,35 +11,35 @@ GENERAL OVERVIEW
 - Application state management is implemented using two modern solutions: React Context and Zustand, ensuring efficient data and information flow management within the application.
 
 Features:
-Real-time communication
-Real-time online status
-Notification sound for received messages
-Attractive design
-Organized code
-Message sending: text, emoticons, images
-Complete authentication system with JWT and authorization middleware
-Real-time communication with Socket.IO library
-The API handles each error and returns a corresponding message, which is displayed in the user interface
+-Real-time communication
+-Real-time online status
+-Notification sound for received messages
+-Attractive design
+-Organized code
+-Message sending: text, emoticons, images
+-Complete authentication system with JWT and authorization middleware
+-Real-time communication with Socket.IO library
+-The API handles each error and returns a corresponding message, which is displayed in the user interface
  
  Structure:
 ![Structura](https://github.com/user-attachments/assets/dcbef46a-6b32-407b-8648-751948270298)
 
 Instructions to Run the Project:
-1.Clone the project.
-2.In the terminal, run the command npm install.
-3.Create a .env file in the root directory with the following content:
-JWT_SECRET
-MONGODB_URI
-NODE_ENV=development
-4.In the root directory, run npm run server.
-5.In the frontend directory, run npm run dev.
+-Clone the project.
+-In the terminal, run the command npm install.
+-Create a .env file in the root directory with the following content:
+----JWT_SECRET
+----MONGODB_URI
+----NODE_ENV=development
+-In the root directory, run npm run server.
+-In the frontend directory, run npm run dev.
 
  
  
 
 Guide:
 1.login and registration
-1.1.login
+-1.1.login
 -go to login page
 
 ![p1](https://github.com/user-attachments/assets/355d438a-f59c-485c-aae3-a89d869e5629)
@@ -59,7 +59,7 @@ Guide:
 -if the data has been entered correctly you will be automatically redirected to the "Home" page
 
 2.Home page
-2.1 Conversations
+-2.1 Conversations
 -on the main page, on the left side, you will see the available conversations according to how many users have an account
 -to open an existing conversation, click on its name in the conversation list
 
@@ -78,10 +78,10 @@ Guide:
 ![p6](https://github.com/user-attachments/assets/98321510-4a75-47a5-999b-98a0c7078dea)
 
 3.Conversations
-3.1 Sending messages
+-3.1 Sending messages
 -In a conversation use the input field to write a message
 -click the send button on the right side
-3.2 Viewing messages
+-3.2 Viewing messages
 -Sent and received messages will be displayed in the conversation with the most recent at the bottom
 -When you receive a message you will hear a notification sound
 

@@ -31,8 +31,8 @@ Instructions to Run the Project:
 ---- JWT_SECRET
 ---- MONGODB_URI
 ---- NODE_ENV=development
-- In the root directory, run npm run server.
-- In the frontend directory, run npm run dev.
+- In the root directory, run `npm run server`.
+- In the frontend directory, `run npm run dev`.
 
  
  

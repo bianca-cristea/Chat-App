@@ -1,43 +1,43 @@
 # Chat-App
 
-Aplicatie de comunicare in timp real cu ajutorul MERN ( MongoDB, Express.js,React.js,Node.js) Stack
+Real-Time Communication Application Using the MERN (MongoDB, Express.js, React.js, Node.js) Stack
 
-PREZENTARE GENERALA
-- am folosit Tailwind CSS si componente Daisy UI pentru a conferi o interfata moderna si atragatoare
-- securitatea si gestionarea utilizatorilor realizate prin JWT(JSON Web Token) si middleware de autorizare 
-- comunicare in timp real, utilizand biblioteca Socket.lO, astfel, permitand comunicarea instantanee intre utilizatori si actualizarea in timp real a conversatiilor
-- codul este scris intr-o maniera organizata si modularizata
-- managementul starii aplicatiei este implementat, folosind 2 solutii moderne: React Context si Zustand,  asigurand un management eficient al fluxului de date si
-informatii in aplicatiei
+GENERAL OVERVIEW
 
-Caracteristici:
--comunicare in timp real
--online status in timp real
--sunet notificare primire mesaj
--design atractiv
--cod organizat
--trimitere mesaj: text,emoticoane,imagini
--sistem complet de autentificare cu jwt si middleware de autorizare
--comunicare in timp real cu Socket.IO library
--API-ul gestioneaza fiecare eroare si returneaza un mesaj corespunzator, care
- este afisat in interfata utilizatorilor
+- I utilized Tailwind CSS and Daisy UI components to create a modern and attractive interface.
+- Security and user management are handled via JWT (JSON Web Token) and authorization middleware.
+- Real-time communication is enabled using the Socket.IO library, allowing instantaneous interaction between users and real-time updates of conversations.
+- The code is written in an organized and modular manner.
+- Application state management is implemented using two modern solutions: React Context and Zustand, ensuring efficient data and information flow management within the application.
+
+Features:
+Real-time communication
+Real-time online status
+Notification sound for received messages
+Attractive design
+Organized code
+Message sending: text, emoticons, images
+Complete authentication system with JWT and authorization middleware
+Real-time communication with Socket.IO library
+The API handles each error and returns a corresponding message, which is displayed in the user interface
  
- Structura:
+ Structure:
 ![Structura](https://github.com/user-attachments/assets/dcbef46a-6b32-407b-8648-751948270298)
 
- Instructiuni rulare proiect:
- 1.Clonati proiectul
- 2.in terminal scrieti comanda npm install
- 3.creati in root .env file in care sa scrieti 
- JWT_SECRET
- MONGODB_URI
- NODE_ENV=development
- 4.in root rulati npm run server
- 5.in frontend rulati npm run dev
+Instructions to Run the Project:
+1.Clone the project.
+2.In the terminal, run the command npm install.
+3.Create a .env file in the root directory with the following content:
+JWT_SECRET
+MONGODB_URI
+NODE_ENV=development
+4.In the root directory, run npm run server.
+5.In the frontend directory, run npm run dev.
+
  
  
 
- Ghid de utilizare:
+Guide:
 1.login and registration
 1.1.login
 -go to login page

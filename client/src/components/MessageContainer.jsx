@@ -11,15 +11,11 @@ const MessageContainer = () => {
   const [mode, setMode] = useState(true);
 
   useEffect(() => {
-    localStorage.setItem("mode", mode ? "light" : "dark");
-  }, [mode]);
-
-  useEffect(() => {
     return () => setSelectedConversation(null);
   }, [setSelectedConversation]);
 
   const toggleMode = () => {
-    setMode(!mode);
+    setMode((prevMode) => !prevMode);
   };
 
   return (

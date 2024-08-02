@@ -95,7 +95,7 @@ export const logout = (req, res) => {
   try {
     res.clearCookie("token");
     return res.status(200).json({
-      message: "Loggout succesful",
+      message: "Logout succesful",
     });
   } catch (error) {
     console.log("Error in logout controller", error.message);

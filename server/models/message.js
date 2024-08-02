@@ -18,14 +18,8 @@ const messageSchema = mongoose.Schema(
     },
     messageType: {
       type: String,
-      enum: ["text", "file", "emoji"],
+      enum: ["text", "file"],
       required: true,
-    },
-    fileUrl: {
-      type: String,
-    },
-    emojiCode: {
-      type: String,
     },
   },
   { timestamps: true }

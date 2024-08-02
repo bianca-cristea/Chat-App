@@ -15,8 +15,8 @@ const io = new Server(server, {
 export const getReceiverSocketId = (receiverId) => {
   return userSocketMap[receiverId];
 };
-const userSocketMap = {};
 
+const userSocketMap = {}; //cand user ul se conecteaza la socket.io server atunci se adauga in map
 io.on("connection", (socket) => {
   console.log("a user connected", socket.id);
 
@@ -24,7 +24,6 @@ io.on("connection", (socket) => {
   if (userId != "undefined") userSocketMap[userId] = socket.id;
 
   io.emit("getOnlineUsers", Object.keys(userSocketMap));
-
   socket.on("disconnect", () => {
     console.log("user disconnected", socket.id);
     delete userSocketMap[userId];

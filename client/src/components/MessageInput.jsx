@@ -18,9 +18,9 @@ const MessageInput = () => {
       setFile(selectedFile);
       const reader = new FileReader();
       reader.onloadend = () => {
-        setPreviewURL(reader.result); // Setează previewURL cu rezultatul citirii
+        setPreviewURL(reader.result);
       };
-      reader.readAsDataURL(selectedFile); // Citirea fișierului ca și Data URL
+      reader.readAsDataURL(selectedFile);
     }
   };
 

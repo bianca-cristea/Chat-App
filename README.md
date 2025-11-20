@@ -85,7 +85,8 @@ Guide:
 - Sent and received messages will be displayed in the conversation with the most recent at the bottom
 - When you receive a message you will hear a notification sound
 
-![p7](https://github.com/user-attachments/assets/870ce741-fa9e-4e7a-9f36-b846c661e5af)
+![p7](![image](https://github.com/user-attachments/assets/2fb00921-859e-47aa-98ae-b25216c1724d)
+)
 
 4.Logout
 - to log out of your account, click on the bottom left button on the main page
